@@ -23,12 +23,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const NotoSansJP = Noto_Sans_JP({
-    weight: ["400", "700"],
-    subsets: ["latin"],
-    preload: true,
-  });
-
   return (
     <html lang="ja">
       <body className={NotoSansJP.className}>
